@@ -8,14 +8,14 @@
     "version": "1",
     "name": "Base Guessing Game",
     "homeUrl": "https://basetestingdjango.onrender.com",
-    "iconUrl": "https://basetestingdjango.onrender.com/static/game/icon.svg",
-    "splashImageUrl": "https://basetestingdjango.onrender.com/static/game/icon.svg",
+    "iconUrl": "https://basetestingdjango.onrender.com/static/game/icon.png",
+    "splashImageUrl": "https://basetestingdjango.onrender.com/static/game/icon.png",
     "splashBackgroundColor": "#020617",
     "webhookUrl": "https://basetestingdjango.onrender.com/api/webhook",
     "subtitle": "Guess the number on Base",
     "description": "A simple number guessing game built with Django, deployed on Base.",
     "screenshotUrls": [
-      "https://basetestingdjango.onrender.com/static/game/icon.svg"
+      "https://basetestingdjango.onrender.com/static/game/icon.png"
     ],
     "primaryCategory": "games",
     "tags": [
@@ -23,11 +23,11 @@
       "miniapp",
       "base"
     ],
-    "heroImageUrl": "https://basetestingdjango.onrender.com/static/game/icon.svg",
+    "heroImageUrl": "https://basetestingdjango.onrender.com/static/game/icon.png",
     "tagline": "Guess the number",
     "ogTitle": "Base Guessing Game",
     "ogDescription": "Play a quick number guessing game on Base.",
-    "ogImageUrl": "https://basetestingdjango.onrender.com/static/game/icon.svg",
+    "ogImageUrl": "https://basetestingdjango.onrender.com/static/game/icon.png",
     "noindex": true
   }
 }
