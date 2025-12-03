@@ -18,3 +18,13 @@ def farcaster_manifest_view(request):
     except FileNotFoundError:
         raise Http404("Manifest not found")
     return JsonResponse(data)
+
+
+def webhook_view(request):
+    if request.method != "POST":
+        return JsonResponse({"error": "Method not allowed"}, status=405)
+    try:
+        payload = json.loads(request.body or b"{}")
+    except json.JSONDecodeError:
+        payload = {}
+    return JsonResponse({"ok": True, "received": payload})

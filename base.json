@@ -11,7 +11,7 @@
     "iconUrl": "https://basetestingdjango.onrender.com/static/game/icon.svg",
     "splashImageUrl": "https://basetestingdjango.onrender.com/static/game/icon.svg",
     "splashBackgroundColor": "#020617",
-    "webhookUrl": "",
+    "webhookUrl": "https://basetestingdjango.onrender.com/api/webhook",
     "subtitle": "Guess the number on Base",
     "description": "A simple number guessing game built with Django, deployed on Base.",
     "screenshotUrls": [
