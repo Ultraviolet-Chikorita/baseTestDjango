@@ -1,0 +1,36 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "baseBuilder": {
+    "ownerAddress": "0xYOUR_BASE_WALLET_ADDRESS"
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "Base Guessing Game",
+    "homeUrl": "https://YOUR-RENDER-APP-URL/",
+    "iconUrl": "https://YOUR-RENDER-APP-URL/static/game/icon.svg",
+    "splashImageUrl": "https://YOUR-RENDER-APP-URL/static/game/icon.svg",
+    "splashBackgroundColor": "#020617",
+    "webhookUrl": "",
+    "subtitle": "Guess the number on Base",
+    "description": "A simple number guessing game built with Django, deployed on Base.",
+    "screenshotUrls": [
+      "https://YOUR-RENDER-APP-URL/static/game/icon.svg"
+    ],
+    "primaryCategory": "games",
+    "tags": [
+      "game",
+      "miniapp",
+      "base"
+    ],
+    "heroImageUrl": "https://YOUR-RENDER-APP-URL/static/game/icon.svg",
+    "tagline": "Guess the number",
+    "ogTitle": "Base Guessing Game",
+    "ogDescription": "Play a quick number guessing game on Base.",
+    "ogImageUrl": "https://YOUR-RENDER-APP-URL/static/game/icon.svg",
+    "noindex": true
+  }
+}

@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: base-guessing-game
+    runtime: python
+    buildCommand: "pip install -r requirements.txt && cd base_guessing_game && python manage.py collectstatic --noinput && python manage.py migrate --noinput"
+    startCommand: "cd base_guessing_game && gunicorn base_guessing_game.wsgi:application --bind 0.0.0.0:8000"
+    envVars:
+      - key: DJANGO_SECRET_KEY
+        generateValue: true
+      - key: DJANGO_DEBUG
+        value: "False"
+      - key: DJANGO_ALLOWED_HOSTS
+        value: "*"

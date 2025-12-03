@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8" />
+    <title>Base Guessing Game</title>
+    <link rel="stylesheet" href="{% static 'game/style.css' %}">
+    <script defer src="{% static 'game/game.js' %}"></script>
+</head>
+<body>
+    <div class="app">
+        <h1>Base Guessing Game</h1>
+        <p class="subtitle">Guess a number between 1 and 100.</p>
+        <div class="game-box">
+            <input id="guess-input" type="number" min="1" max="100" placeholder="Enter your guess" />
+            <button id="guess-btn">Guess</button>
+            <button id="reset-btn" class="secondary">Reset</button>
+            <p id="feedback"></p>
+            <p id="attempts"></p>
+        </div>
+    </div>
+</body>
+</html>
