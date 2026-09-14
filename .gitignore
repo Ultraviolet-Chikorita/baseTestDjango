@@ -1,1 +1,22 @@
-/.venv
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Django runtime state
+**/db.sqlite3
+**/staticfiles/
+media/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# OS / editor state
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
