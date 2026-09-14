@@ -2,7 +2,7 @@
 
 A small Django guessing-game application used to practice the framework and a basic Render deployment workflow.
 
-> **Portfolio status:** learning/deployment exercise, not a primary project. It is retained to show earlier Django experimentation; newer repositories on this account are more representative of my current engineering work.
+> **Repository status:** historical learning/deployment exercise retained as part of the original Django practice work.
 
 ## Structure
 
@@ -11,7 +11,7 @@ A small Django guessing-game application used to practice the framework and a ba
 - `base.json` — retained project/example data;
 - `static/` — shared static assets.
 
-Django configuration already reads its secret key, debug flag and allowed hosts from environment variables. A local SQLite database and generated static/runtime files should not be committed.
+Django configuration reads its secret key, debug flag and allowed hosts from environment variables. A local SQLite database and generated static/runtime files should not be committed.
 
 ```bash
 python -m venv .venv
